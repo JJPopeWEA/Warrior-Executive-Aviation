@@ -5,13 +5,13 @@ const performanceStats = [
   { value: '24/7', label: 'Operational support' },
   { value: 'Elite', label: 'Crew standards' },
   { value: 'Mission', label: 'Focused execution' },
-  { value: 'Premium', label: 'Client experience' },
+  { value: 'Private', label: 'Client experience' },
 ];
 
 const serviceCards = [
   {
     title: 'Executive Charter',
-    text: 'Private, efficient, and flexible travel for executives, teams, and VIP clients.',
+    text: 'Private, efficient, and discreet travel for executives, teams, and VIP clients.',
   },
   {
     title: 'Crew Support & Staffing',
@@ -23,7 +23,7 @@ const serviceCards = [
   },
   {
     title: 'Flight Operations Support',
-    text: 'Reliable support infrastructure for efficient and organized flight execution.',
+    text: 'Reliable support infrastructure built for precise and organized execution.',
   },
   {
     title: 'VIP & Group Travel',
@@ -31,24 +31,24 @@ const serviceCards = [
   },
   {
     title: 'Mission-Ready Aviation Support',
-    text: 'Operational support built around precision, compliance, and professionalism.',
+    text: 'Operational support crafted around precision, compliance, and professionalism.',
   },
 ];
 
 const testimonials = [
   {
     quote:
-      'Warrior Executive Aviation brings the professionalism and precision you expect from a premium aviation partner. Every detail was handled with care, and the experience exceeded expectations.',
+      'Warrior Executive Aviation delivers the kind of polished, professional experience you expect from a true private aviation partner. Every detail was handled with precision and discretion.',
     author: 'Executive Client',
   },
   {
     quote:
-      'We needed a dependable aviation partner who understood both service and operational discipline. Warrior Executive Aviation delivered.',
+      'We needed a dependable aviation partner who understood both service and operational discipline. Warrior Executive Aviation delivered without compromise.',
     author: 'Corporate Client',
   },
   {
     quote:
-      'We value trust, readiness, and professionalism, and this team consistently delivers.',
+      'From scheduling to arrival, the experience felt refined, secure, and expertly managed. It set the standard for executive travel.',
     author: 'Private Traveler',
   },
 ];
@@ -62,15 +62,15 @@ export default function HomePage() {
         <section className="hero-section">
           <div className="container hero-grid">
             <div className="hero-copy">
-              <p className="eyebrow">Executive aviation built for precision</p>
-              <h1>Warrior Executive Aviation</h1>
+              <p className="eyebrow">Private aviation, tailored to your mission</p>
+              <h1>Luxury Executive Travel, Elevated.</h1>
               <p className="lede">
-                Premium flight operations, elite crew support, and dependable aviation experiences for executives, teams, and mission-focused travel.
+                Warrior Executive Aviation delivers discreet, premium air travel and mission-ready support for business leaders, families, and high-value operations.
               </p>
 
               <div className="button-row">
                 <Link href="/contact" className="button button-primary">
-                  Book a Flight
+                  Request a Quote
                 </Link>
                 <Link href="/services" className="button button-ghost-light">
                   Explore Services
@@ -81,13 +81,13 @@ export default function HomePage() {
                 <span>Executive Air Travel</span>
                 <span>Crew Readiness</span>
                 <span>Safety-First Culture</span>
-                <span>Premium Service</span>
+                <span>Tailored Service</span>
               </div>
             </div>
 
             <div className="hero-panel">
               <div className="panel-card">
-                <span className="label">Operations Snapshot</span>
+                <span className="label">Private Flight Portfolio</span>
                 <div className="panel-stats">
                   <div>
                     <strong>24/7</strong>
@@ -99,7 +99,17 @@ export default function HomePage() {
                   </div>
                   <div>
                     <strong>Mission</strong>
-                    <small>Focused</small>
+                    <small>Ready</small>
+                  </div>
+                </div>
+                <div className="mini-metrics">
+                  <div>
+                    <span>Availability</span>
+                    <strong>On Demand</strong>
+                  </div>
+                  <div>
+                    <span>Experience</span>
+                    <strong>Executive Grade</strong>
                   </div>
                 </div>
               </div>
@@ -121,15 +131,15 @@ export default function HomePage() {
         <section className="section">
           <div className="container two-column">
             <div>
-              <p className="eyebrow dark">Why choose us</p>
-              <h2>Built for performance. Prepared for every mission.</h2>
+              <p className="eyebrow dark">Why Warrior</p>
+              <h2>Precision-crafted travel for those who expect more.</h2>
             </div>
             <div>
               <p>
-                At Warrior Executive Aviation, we combine professional aviation expertise with a disciplined mindset built for executive travel, crew readiness, and mission-critical support. Every detail is designed around safety, punctuality, and an elevated passenger experience.
+                At Warrior Executive Aviation, we combine professional aviation expertise with a disciplined mindset built for executive travel, crew readiness, and mission-critical support. Every detail is designed around comfort, punctuality, and a refined passenger experience.
               </p>
               <p>
-                We provide a seamless aviation experience for clients who value reliability, professionalism, and excellence.
+                We provide a seamless aviation experience for clients who value privacy, professionalism, and excellence.
               </p>
             </div>
           </div>
@@ -139,7 +149,7 @@ export default function HomePage() {
           <div className="container">
             <div className="section-heading">
               <p className="eyebrow dark">Services</p>
-              <h2>Aviation solutions for modern travel and operational demands</h2>
+              <h2>Tailored aviation solutions for modern travel.</h2>
             </div>
 
             <div className="card-grid three-up">
@@ -157,14 +167,14 @@ export default function HomePage() {
           <div className="container">
             <div className="section-heading">
               <p className="eyebrow dark">Fleet</p>
-              <h2>Aircraft built for comfort, capability, and confidence</h2>
+              <h2>Aircraft selected for comfort, capability, and confidence.</h2>
             </div>
 
             <div className="fleet-highlight">
               <div className="fleet-copy">
                 <h3>Executive-grade aircraft for every mission.</h3>
                 <p>
-                  Our fleet is selected for comfort, performance, and flexibility, offering a premium travel experience built around your schedule and mission.
+                  Our fleet is selected for comfort, performance, and flexibility, delivering a premium travel experience built around your schedule, preferences, and expectations.
                 </p>
                 <ul>
                   <li>Light and midsize executive aircraft</li>
@@ -187,7 +197,7 @@ export default function HomePage() {
           <div className="container">
             <div className="section-heading narrow">
               <p className="eyebrow dark">Safety & standards</p>
-              <h2>Safety is the foundation of every flight</h2>
+              <h2>Safety is the foundation of every flight.</h2>
             </div>
 
             <div className="two-column list-column">
@@ -213,7 +223,7 @@ export default function HomePage() {
           <div className="container">
             <div className="section-heading">
               <p className="eyebrow dark">Our crew</p>
-              <h2>An elite team with a mission-first mindset</h2>
+              <h2>An elite team with a mission-first mindset.</h2>
             </div>
 
             <div className="card-grid three-up">
@@ -239,8 +249,8 @@ export default function HomePage() {
         <section className="section alt">
           <div className="container">
             <div className="section-heading">
-              <p className="eyebrow dark">Testimonials</p>
-              <h2>Trusted by clients who value reliability and discretion</h2>
+              <p className="eyebrow dark">Client experience</p>
+              <h2>Trusted by clients who value discretion and reliability.</h2>
             </div>
 
             <div className="card-grid three-up">
@@ -258,7 +268,7 @@ export default function HomePage() {
           <div className="container cta-box">
             <div>
               <p className="eyebrow dark">Ready to fly</p>
-              <h2>Ready to fly with a partner built for precision?</h2>
+              <h2>Private travel, refined for your time and standards.</h2>
             </div>
 
             <div className="cta-actions">
